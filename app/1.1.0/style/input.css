@@ -1,0 +1,149 @@
+select.form-select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(https://www.freeiconspng.com/thumbs/arrow-down-icon-png/arrow-down-icon-png-10.png);
+    background-repeat: no-repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: 1.5rem auto;
+}
+
+input.form-input, textarea.form-input, select.form-select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+} 
+
+input.form-input-extend {
+    width: 130px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input.form-input-extend:focus {
+    width: 100%;
+  }
+
+input[type="checkbox"].form-check:not(:checked), 
+input[type="checkbox"].form-check:checked {
+	position: absolute;
+	left: 0;
+	opacity: 0.01;
+}
+
+input[type="checkbox"].form-check:not(:checked) + label,
+input[type="checkbox"].form-check:checked + label {
+	position: relative;
+	padding-left: 1.6em;
+	font-size: 1.05em;
+	line-height: 1.7;
+	cursor: pointer; 
+}
+
+input[type="checkbox"].form-check:not(:checked) + label::before,
+input[type="checkbox"].form-check:checked + label::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1.4em;
+	height: 1.4em;
+	border: 1px solid #aaa;
+    background-color: white;
+	border-radius: .2em;
+	box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 rgba(203, 34, 237, .2);
+	transition: all .275s;
+}
+
+input[type="checkbox"].form-check:not(:checked) + label::after,
+input[type="checkbox"].form-check:checked + label::after {
+	content: '✕';
+	position: absolute;
+	bottom: .40rem;
+	left: 0rem;
+	font-size: 1.6em;
+	line-height: 0;
+	transition: all .2s;
+}
+
+input[type="checkbox"].form-check:not(:checked) + label::after {
+	opacity: 0;
+	transform: scale(0) rotate(45deg);
+}
+
+input[type="checkbox"].form-check:checked + label::after {
+	opacity: 1;
+	transform: scale(1) rotate(0);
+}
+
+input[type="checkbox"].form-check:disabled:not(:checked) + label::before,
+input[type="checkbox"].form-check:disabled:checked + label::before {
+	box-shadow: none;
+	border-color: #bbb;
+	background-color: #e9e9e9;
+}
+
+input[type="checkbox"].form-check:disabled:checked + label::after {
+	color: #777;
+}
+
+input[type="checkbox"].form-check:disabled + label {
+	color: #aaa;
+}
+
+input[type="checkbox"].form-check:checked:focus + label::before,
+input[type="checkbox"].form-check:not(:checked):focus + label::before {
+	box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 6px var(--color-shadow);
+}
+
+.radio-label {
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+  }
+  
+  .radio-label + .radio-label {
+    margin-top: 1em;
+  }
+  
+  .radio-label:focus-within {
+    color: var(--color-font);
+  }
+  
+  input[type="radio"].form-radio {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    margin: 0;
+    width: 1.4em;
+    height: 1.4em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="radio"].form-radio::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--color-font);
+  }
+  
+  input[type="radio"].form-radio:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="radio"].form-radio:focus {
+	box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 6px var(--color-shadow);
+  }

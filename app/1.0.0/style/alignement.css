@@ -1,0 +1,26 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Alignement ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}

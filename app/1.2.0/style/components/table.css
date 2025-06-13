@@ -1,0 +1,47 @@
+.responsive-table {
+    overflow-x: auto;
+    width: 100%;
+    display: block;
+}
+
+.responsive-table td, .responsive-table th {
+    max-width: 80vw;
+    overflow-wrap: break-word;
+}
+
+.table {  
+    text-indent: 0;
+    display: table;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+.table thead {
+    color: inherit;
+    background-color: var(--color-table-hover);
+}
+
+.table td, .table th {
+    border-bottom: 1px solid var(--color-border);
+    text-align: left;
+    padding: .8rem .5rem;
+    vertical-align: middle;
+}
+.table tr {
+    background-color: var(--color-table-child-2);
+}
+.table tr:nth-child(even){
+    background-color: var(--color-table-child-1);
+}
+
+.table tr:hover {
+    background-color: var(--color-table-hover);
+    color: var(--color-font-dark);
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: var(--color-table-title);
+}

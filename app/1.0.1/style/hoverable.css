@@ -1,0 +1,51 @@
+.hoverable-1:not(.btn-press):not(.btn-outline) {
+    transition-property: box-shadow,transform;
+    transition-timing-function: ease;
+    transition-duration: .2s;
+}
+
+.hoverable-2:not(.btn-press):not(.btn-outline) {
+    transition-property: box-shadow,transform;
+    transition-timing-function: ease;
+    transition-duration: .2s;
+}
+
+.hoverable-3:not(.btn-press):not(.btn-outline) {
+    transition-property: box-shadow,transform;
+    transition-timing-function: ease;
+    transition-duration: .2s;
+}
+
+.hoverable-4:not(.btn-press):not(.btn-outline) {
+    transition-property: box-shadow,transform;
+    transition-timing-function: ease;
+    transition-duration: .2s;
+}
+
+.hoverable-5:not(.btn-press):not(.btn-outline) {
+    transition-property: box-shadow,transform;
+    transition-timing-function: ease;
+    transition-duration: .2s;
+}
+
+.hoverable-1:not(.btn-press):not(.btn-outline):hover {
+    box-shadow: 0 9px 8px var(--color-shadow),0 5px 8px 3px var(--color-shadow) !important;
+    transform: translateY(-5px);
+}
+
+.hoverable-2:not(.btn-press):not(.btn-outline):hover {
+    box-shadow: 0 10px 8px var(--color-shadow),0 6px 8px 3px var(--color-shadow) !important;
+    transform: translateY(-5px);
+}
+.hoverable-3:not(.btn-press):not(.btn-outline):hover {
+    box-shadow: 0 11px 8px var(--color-shadow),0 7px 8px 3px var(--color-shadow) !important;
+    transform: translateY(-5px);
+}
+.hoverable-4:not(.btn-press):not(.btn-outline):hover {
+    box-shadow: 0 12px 8px var(--color-shadow),0 8px 8px 3px var(--color-shadow) !important;
+    transform: translateY(-5px);
+}
+.hoverable-5:not(.btn-press):not(.btn-outline):hover {
+    box-shadow: 0 13px 8px var(--color-shadow),0 9px 8px 3px var(--color-shadow) !important;
+    transform: translateY(-5px);
+}

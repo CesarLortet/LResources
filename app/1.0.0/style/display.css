@@ -1,0 +1,55 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Container ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 35px 15px;
+}
+
+@media only screen and (max-width: 993px){
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Flex box ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex{
+    display: flex;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Flex direction ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.flex.fx-col{
+    flex-direction: column;
+}
+
+.fx-col-reverse{
+    flex-direction: column-reverse;
+}
+
+.fx-row{
+    flex-direction: row;
+}
+
+.fx-row-reverse{
+    flex-direction: row-reverse;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Justify ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex.fx-center {
+    justify-content: center;
+}
+.flex.fx-evenly {
+    justify-content: space-evenly;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Alignement ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.align-center {
+    align-items: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Others ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.hidden{
+    display: none;
+}

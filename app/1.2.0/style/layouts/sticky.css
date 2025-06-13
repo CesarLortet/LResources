@@ -1,0 +1,22 @@
+.sticky {
+    position: sticky;
+}
+
+.sticky-footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sticky-footer__header,
+.sticky-footer__footer {
+    flex-shrink: 0;
+}
+
+.sticky-footer__main {
+    flex-grow: 1;
+}
+
+.sticky-header__header {
+    top: 0;
+}

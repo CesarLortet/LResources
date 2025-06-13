@@ -1,0 +1,36 @@
+/* LAYOUTS */
+
+@import url("style/layouts/core.css");
+@import url("style/layouts/sidebar.css");
+@import url("style/layouts/sticky.css");
+@import url("style/layouts/wrapper.css");
+
+/* COMPONENTS */
+
+@import url("style/components/breadcrumb.css");
+@import url("style/components/button.css");
+@import url("style/components/card.css");
+@import url("style/components/collapsible.css");
+@import url("style/components/drawer.css");
+@import url("style/components/notification.css");
+@import url("style/components/table.css");
+@import url("style/components/tree-diagram.css");
+@import url("style/components/folder-structure.css");
+
+/* ALL */
+
+@import url("style/alignement.css");
+@import url("style/breakpoint.css");
+@import url("style/collapsible.css");
+@import url("style/colors.css");
+@import url("style/core.css");
+@import url("style/cursors.css");
+@import url("style/decoration.css");
+@import url("style/display.css");
+@import url("style/hoverable.css");
+@import url("style/input.css");
+@import url("style/markup.css");
+@import url("style/media.css");
+@import url("style/size.css");
+@import url("style/text.css");
+@import url("style/vars.css");

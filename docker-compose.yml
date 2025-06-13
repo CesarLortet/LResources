@@ -1,0 +1,25 @@
+services:
+  global_web_resources:
+    healthcheck:
+      test: curl -f http://localhost/ || exit 1
+      interval: 1m30s
+      timeout: 10s 
+      retries: 1
+      start_period: 5s
+    container_name: global_tools_web-ressources
+    image: websites:generic
+    build:
+      context: .
+    restart: always
+    networks:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.global_web_resources.rule=Host(`rsrs.lortetcesar.fr`)"
+      - "traefik.http.routers.global_web_resources.tls=true"
+      - "traefik.http.routers.global_web_resources.tls.certresolver=web_certs"
+      - "traefik.http.routers.global_web_resources.entrypoints=websecure"
+
+networks:
+  web: 
+    external: true

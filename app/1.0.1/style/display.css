@@ -1,0 +1,90 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Container ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 35px 15px;
+}
+
+.container.ctnr-80 {
+    width: 80%;
+}
+
+.container.ctnr-70 {
+    width: 70%;
+}
+
+.container.ctnr-60 {
+    width: 60%;
+}
+
+.container.ctnr-50 {
+    width: 50%;
+}
+
+@media only screen and (max-width: 993px){
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .container.ctnr-80 {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .container.ctnr-70 {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .container.ctnr-60 {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .container.ctnr-50 {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Flex box ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex{
+    display: flex;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Flex direction ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.flex.fx-col{
+    flex-direction: column;
+}
+
+.fx-col-reverse{
+    flex-direction: column-reverse;
+}
+
+.fx-row{
+    flex-direction: row;
+}
+
+.fx-row-reverse{
+    flex-direction: row-reverse;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Justify ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex.fx-center {
+    justify-content: center;
+}
+.flex.fx-evenly {
+    justify-content: space-evenly;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Alignement ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.align-center {
+    align-items: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Others ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.hidden{
+    display: none;
+}

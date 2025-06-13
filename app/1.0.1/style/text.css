@@ -1,0 +1,80 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 1.25rem 0 .75rem;
+}
+
+h1, .h1 {
+    font-size: 2.75rem;
+}
+
+h2, .h2 {
+    font-size: 2.25rem;
+}
+
+h3, .h3 {
+    font-size: 2rem;
+}
+
+h4, .h4 {
+    font-size: 1.75rem;
+}
+
+h5, .h5 {
+    font-size: 1.50rem;
+}
+
+h6, .h6 {
+    font-size: 1.25rem;
+}
+
+.font-responsive-1 {
+    font-size: clamp(0.94rem, calc(0.92rem + 0.08vw), 0.98rem);
+}
+
+.font-responsive-2 {
+    font-size: clamp(1.13rem, calc(1.06rem + 0.33vw), 1.31rem);
+}
+
+.font-responsive-3 {
+    font-size: clamp(1.35rem, calc(1.21rem + 0.69vw), 1.75rem);
+}
+
+.font-responsive-4 {
+    font-size: clamp(1.62rem, calc(1.37rem + 1.24vw), 2.33rem);
+}
+
+.font-responsive-5 {
+    font-size: clamp(1.94rem, calc(1.54rem + 2.03vw), 3.11rem);
+}
+
+.font-responsive-6 {
+    font-size: clamp(2.33rem, calc(1.7rem + 3.15vw), 4.14rem);
+}
+
+.font-responsive-7 {
+    font-size: clamp(2.8rem, calc(1.85rem + 4.74vw), 5.52rem);
+}
+
+
+.font-s3 {
+    font-size: 1.25rem !important;
+}
+
+.txt-shadow-0 {
+    text-shadow: none !important;
+}
+
+.txt-shadow-1 {
+    text-shadow: 0 2px 5px var(--color-shadow);
+}
+
+.txt-shadow-2 {
+    text-shadow: 2px 4px 3px var(--color-shadow);
+}
+
+.txt-shadow-3 {
+    text-shadow: 0px 4px 3px var(--color-shadow);
+}
+
+.txt-shadow-4 {
+    text-shadow: 6px 6px 0px var(--color-shadow);
+}

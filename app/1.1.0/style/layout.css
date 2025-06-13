@@ -1,0 +1,12 @@
+.layout__spa {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.split-screen {
+    display: flex;
+}
+
+.split-screen__half {
+    flex: 1;
+}

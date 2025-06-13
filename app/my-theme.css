@@ -1,0 +1,31 @@
+/* my-theme.css */
+.my-wonderfull-theme {
+    --color-background-strong: #ff00bf;
+    --color-background-medium: #66ff0d;
+    --color-background-small: #00ffaa;
+
+    --color-border: #000000;
+
+    --color-title-strong: #640032;
+    --color-title-medium: #2c0074;
+    --color-title-small: #836f00;
+
+    --color-alert-error: #e53170;
+    --color-alert-success: #2cb67d;
+    --color-alert-warning: #ff8906;
+
+    --color-button-background: #eebbc3;
+    --color-button-background-alt: #b8c1ec;
+    --color-button-text: #232946;
+
+    --color-link: #001685;
+    --color-link-hover: #232946;
+    --color-link-visited: #00812b;
+    --color-link-active: #232946;
+
+    --color-font: #000000;
+    --color-font-light: #ffb9b9;
+    --color-font-dark: #000;
+
+    --color-shadow: rgba(255, 255, 255, 0.2);
+}

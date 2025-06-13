@@ -1,0 +1,221 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Container ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 35px 15px;
+}
+
+.container.ctnr-80 {
+    width: 80%;
+}
+
+.container.ctnr-70 {
+    width: 70%;
+}
+
+.container.ctnr-60 {
+    width: 60%;
+}
+
+.container.ctnr-50 {
+    width: 50%;
+}
+
+@media only screen and (max-width: 993px){
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .container.ctnr-80 {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .container.ctnr-70 {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .container.ctnr-60 {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .container.ctnr-50 {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Flex box ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex{
+    display: flex;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Flex direction ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.flex.fx-col{
+    flex-direction: column;
+}
+
+.fx-col-reverse{
+    flex-direction: column-reverse;
+}
+
+.fx-row{
+    flex-direction: row;
+}
+
+.fx-row-reverse{
+    flex-direction: row-reverse;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Justify ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex.fx-center {
+    justify-content: center;
+}
+.flex.fx-evenly {
+    justify-content: space-evenly;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Alignement ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.align-center {
+    align-items: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Others ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* For mobile phones: */
+/* Hidden for all Devices */
+.hide {
+    display: none !important;
+}
+
+/* Hidden for Mobile Only */
+.hide-on-small-only {
+    display: block;
+}
+/* Hidden for Tablet Only */
+.hide-on-med-only {
+    display: none;
+
+}
+/* Hidden for Tablet and Below */
+.hide-on-med-and-down {
+    display: none;
+}
+/* Hidden for Tablet and Above */
+.hide-on-med-and-up {
+    display: block;
+}
+/* Hidden for Desktop Only */
+.hide-on-large-only {
+    display: block;
+}
+/* Show for Mobile Only */
+.show-on-small {
+    display: block;
+}
+/* Show for Tablet Only */
+.show-on-medium {
+    display: none;
+}
+/* Show for Desktop Only */
+.show-on-large {
+    display: none;
+}
+/* Show for Tablet and Above */
+.show-on-medium-and-up {
+    display: none;
+}
+/* Show for Tablet and Below */
+.show-on-medium-and-down {
+    display: block;
+}
+
+@media only screen and (min-width: 600px) {
+    /* Hidden for Mobile Only */
+    .hide-on-small-only {
+        display: block;
+    }
+    /* Hidden for Tablet Only */
+    .hide-on-med-only {
+        display: none;
+    }
+    /* Hidden for Tablet and Below */
+    .hide-on-med-and-down {
+        display: none;
+    }
+    /* Hidden for Tablet and Above */
+    .hide-on-med-and-up {
+        display: none;
+    }
+    /* Hidden for Desktop Only */
+    .hide-on-large-only {
+        display: block;
+    }
+    /* Show for Mobile Only */
+    .show-on-small {
+        display: none;
+    }
+    /* Show for Tablet Only */
+    .show-on-medium {
+        display: block;
+    }
+    /* Show for Desktop Only */
+    .show-on-large {
+        display: none;
+    }
+    /* Show for Tablet and Above */
+    .show-on-medium-and-up {
+        display: block;
+    }
+    /* Show for Tablet and Below */
+    .show-on-medium-and-down {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Hidden for Mobile Only */
+    .hide-on-small-only {
+        display: block;
+    }
+    /* Hidden for Tablet Only */
+    .hide-on-med-only {
+        display: block;
+    }
+    /* Hidden for Tablet and Below */
+    .hide-on-med-and-down {
+        display: block;
+    }
+    /* Hidden for Tablet and Above */
+    .hide-on-med-and-up {
+        display: none;
+    }
+    /* Hidden for Desktop Only */
+    .hide-on-large-only {
+        display: none;
+    }
+    /* Show for Mobile Only */
+    .show-on-small {
+        display: none;
+    }
+    /* Show for Tablet Only */
+    .show-on-medium {
+        display: none;
+    }
+    /* Show for Desktop Only */
+    .show-on-large {
+        display: block;
+    }
+    /* Show for Tablet and Above */
+    .show-on-medium-and-up {
+        display: block;
+    }
+    /* Show for Tablet and Below */
+    .show-on-medium-and-down {
+        display: none;
+    }
+}
