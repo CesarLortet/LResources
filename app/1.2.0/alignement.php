@@ -1,0 +1,35 @@
+<section id="alignement">
+  <h2>alignement</h2>
+  <div class="bottom-0">bottom-0</div>
+  <div class="bottom-1">bottom-1</div>
+  <div class="bottom-2">bottom-2</div>
+  <div class="bottom-3">bottom-3</div>
+  <div class="bottom-4">bottom-4</div>
+  <div class="bottom-5">bottom-5</div>
+  <div class="center">center</div>
+  <div class="centering">centering</div>
+  <div class="left">left</div>
+  <div class="left-0">left-0</div>
+  <div class="left-1">left-1</div>
+  <div class="left-2">left-2</div>
+  <div class="left-3">left-3</div>
+  <div class="left-4">left-4</div>
+  <div class="left-5">left-5</div>
+  <div class="right">right</div>
+  <div class="right-0">right-0</div>
+  <div class="right-1">right-1</div>
+  <div class="right-2">right-2</div>
+  <div class="right-3">right-3</div>
+  <div class="right-4">right-4</div>
+  <div class="right-5">right-5</div>
+  <div class="top-0">top-0</div>
+  <div class="top-1">top-1</div>
+  <div class="top-2">top-2</div>
+  <div class="top-3">top-3</div>
+  <div class="top-4">top-4</div>
+  <div class="top-5">top-5</div>
+  <div class="txt-center">txt-center</div>
+  <div class="txt-left">txt-left</div>
+  <div class="txt-right">txt-right</div>
+  <div class="v-center">v-center</div>
+</section>
